@@ -1,0 +1,168 @@
+/*
+Reset CSS
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/*
+Cabeçalho
+*/
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    gap: 35px;
+}
+a{
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    color: #FFF2E7;
+}
+.logo-cima{
+    height: 56px;
+    padding-left: 53px;
+}
+
+/*
+Main
+*/
+
+main{
+    border-top: 0.1px solid #b88a61;
+}
+
+/*
+seção 1 do main
+*/
+
+.secao-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 130px 0px 130px;
+}
+.ballebot-logo{
+    height:300px;
+}
+.textos-sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.botao-add{
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 48px;
+    width: 148px;
+    font-family: 'Sarala';
+    font-size: 18px;
+    line-height: 39px;
+    color: #2F2325;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+.botao-add:hover{
+background: #cfbbab ;
+color: #594448;;
+}
+.titulo-principal{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 79px;
+    color: #FFF2E7;
+}
+.paragrafo-sec1{
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    color: #ECD6C4;
+}
+
+/*
+seção 2 do main
+*/
+
+.secao-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0px;
+    margin-bottom: 42px;
+}
+h2{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.subtitulo-sec2{
+    font-family: 'righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF2E7;
+}
+.p-sec2{
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+}
+strong{
+    font-family: 'sarala';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29.35px;
+    text-align: center;
+}
+hr{
+    border-style: inset;
+    border-width: 0.1px;
+    border-color: #b88a61;
+    width: 240px;
+    margin: auto;
+}
+.hr-edit{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/*
+Footer
+*/
+
+footer{
+    border-top: 0.4px solid #ECD6C4;
+    padding: 32px;
+}
+.logo-ballerini-baixo{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
